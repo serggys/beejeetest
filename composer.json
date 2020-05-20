@@ -1,0 +1,22 @@
+{
+    "name": "beejeetest1",
+    "description": "Task book application",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Serg Watson",
+            "email": "serggminsk@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":
+    {
+        "psr-4":
+        {
+            "Core\\" : "core/",
+            "Application\\" : "module/Application/",
+            "Task\\" : "module/Task/",
+            "Admin\\" : "module/Admin/"
+        }
+    }
+}
